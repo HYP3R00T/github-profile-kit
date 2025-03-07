@@ -1,0 +1,87 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "GitHub Profile Kit Config",
+    "description": "A schema for configuring a GitHub Profile Kit using modular sections.",
+    "type": "object",
+    "properties": {
+        "banner": {
+            "type": "object",
+            "description": "Section for displaying a banner image.",
+            "properties": {
+                "image": {
+                    "type": "string",
+                    "description": "Path or URL to the banner image."
+                },
+                "alt": {
+                    "type": "string",
+                    "description": "Alternative text for the banner image."
+                },
+                "overlay_text": {
+                    "type": "string",
+                    "description": "Optional overlay text displayed on the banner."
+                }
+            },
+            "required": [
+                "image",
+                "alt"
+            ],
+            "additionalProperties": false
+        },
+        "about": {
+            "type": "object",
+            "description": "Section for displaying personal information and a brief bio.",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Your full name."
+                },
+                "bio": {
+                    "type": "string",
+                    "description": "A short biography or description."
+                },
+                "tagline": {
+                    "type": "string",
+                    "description": "An optional personal tagline."
+                }
+            },
+            "required": [
+                "name",
+                "bio"
+            ],
+            "additionalProperties": false
+        },
+        "badges": {
+            "type": "object",
+            "description": "Section for displaying badges (e.g., from shields.io).",
+            "properties": {
+                "list": {
+                    "type": "array",
+                    "description": "An array of badge URLs.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": [
+                "list"
+            ],
+            "additionalProperties": false
+        },
+        "custom_markdown": {
+            "type": "object",
+            "description": "Section for adding custom markdown content.",
+            "properties": {
+                "content": {
+                    "type": "string",
+                    "description": "Raw markdown text that will be injected as-is."
+                }
+            },
+            "required": [
+                "content"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": true
+}
