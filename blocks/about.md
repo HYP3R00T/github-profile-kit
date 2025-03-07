@@ -1,0 +1,1 @@
+I am a Python developer who loves to [learn in public](https://mindmaze.hyperoot.dev/). When I am not programming, I create [YouTube](https://www.youtube.com/@hyp3r00t) videos and write [blogs](https://hyperoot.dev/) for my website.
