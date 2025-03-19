@@ -5,37 +5,37 @@
 about:
   path: "./blocks/about.md"
 
-# social:
-#   links:
-#   - platform: "GitHub"
-#     handle: "HYP3R00T"
-#     url: "https://github.com/HYP3R00T"
-#     badge: "https://img.shields.io/badge/GitHub-HYP3R00T-24273a?style=for-the-badge"
+social:
+  links:
+  - platform: "GitHub"
+    handle: "HYP3R00T"
+    url: "https://github.com/HYP3R00T"
+    badge: "https://img.shields.io/badge/GitHub-HYP3R00T-24273a?style=for-the-badge"
 
-#   - platform: "LinkedIn"
-#     handle: "rajesh-kumar-das"
-#     url: "https://www.linkedin.com/in/rajesh-kumar-das/"
-#     badge: "https://img.shields.io/badge/LinkedIn-rajesh--kumar--das-0A66C2?style=for-the-badge"
+  - platform: "LinkedIn"
+    handle: "rajesh-kumar-das"
+    url: "https://www.linkedin.com/in/rajesh-kumar-das/"
+    badge: "LinkedIn - /in/rajesh-kumar-das"
 
-#   - platform: "Mastodon"
-#     handle: "@hyp3r00t"
-#     url: "https://mastodon.social/@hyp3r00t"
-#     badge: "https://img.shields.io/badge/Mastodon-hyp3r00t-6364FF?style=for-the-badge"
+  - platform: "Mastodon"
+    handle: "@hyp3r00t"
+    url: "https://mastodon.social/@hyp3r00t"
+    badge: "https://img.shields.io/badge/Mastodon-hyp3r00t-6364FF?style=for-the-badge"
 
-#   - platform: "YouTube"
-#     handle: "@hyp3r00t"
-#     url: "https://www.youtube.com/@hyp3r00t"
-#     badge: "https://img.shields.io/badge/YouTube-hyp3r00t-FF0000?style=for-the-badge"
+  - platform: "YouTube"
+    handle: "@hyp3r00t"
+    url: "https://www.youtube.com/@hyp3r00t"
+    badge: "https://img.shields.io/badge/YouTube-hyp3r00t-FF0000?style=for-the-badge"
 
-#   - platform: "Discord"
-#     handle: "HYP3R00T"
-#     url: "https://discord.gg/tWZRBhaPhd"
-#     badge: "https://img.shields.io/badge/Discord-HYP3R00T-5865F2?style=for-the-badge"
+  - platform: "Discord"
+    handle: "HYP3R00T"
+    url: "https://discord.gg/tWZRBhaPhd"
+    badge: "https://img.shields.io/badge/Discord-HYP3R00T-5865F2?style=for-the-badge"
 
-#   - platform: "Hashnode"
-#     handle: "hyperoot"
-#     url: "https://hashnode.com/@hyperoot"
-#     badge: "https://img.shields.io/badge/Hashnode-hyperoot-2962FF?style=for-the-badge"
+  - platform: "Hashnode"
+    handle: "hyperoot"
+    url: "https://hashnode.com/@hyperoot"
+    badge: "https://img.shields.io/badge/Hashnode-hyperoot-2962FF?style=for-the-badge"
 
 blog:
   rss_url: "https://hyperoot.dev/rss.xml"

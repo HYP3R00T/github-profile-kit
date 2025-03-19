@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+---
+title: Home
+hide:
+# - toc
+# - navigation
+---
+# GitHub Profile Kit
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+GitHub Profile Kit is a modular toolkit designed to help you create and customize your GitHub profile using reusable blocks. It aims to simplify the process of curating and updating your profile with dynamic content, interactive elements, and a visually appealing layout.
 
-## Commands
+## Features
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Modular Blocks**: Pre-built, customizable sections (or “blocks”) that you can mix and match.
+- **Easy Integration**: Quickly integrate blocks into your GitHub profile README.
+- **Customizable Layout**: Tailor each block to your personal style and needs.
+- **Community-Driven**: Guidelines for contributing your own blocks back to the kit.
