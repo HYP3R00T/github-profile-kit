@@ -5,18 +5,19 @@ repo_name: HYP3R00T/github-profile-kit
 
 theme:
   icon:
-    logo: octicons/terminal-24
+    logo: simple/github
     menu: material/dots-grid
     search: octicons/search-24
   name: "material"
   palette:
 
   - scheme: slate
-    primary: black
+    primary: deep purple
     toggle:
       icon: material/toggle-switch-off-outline
       name: Prepare for Flashbang!
   - scheme: default
+    primary: deep purple
     toggle:
       icon: material/toggle-switch
       name: Join the dark side. We have cookies.
@@ -112,4 +113,5 @@ nav:
   - Secret Management: getting-started/secrets.md
 - Blocks:
   - Banner: blocks/banner.md
+  - About: blocks/about.md
   - Social: blocks/social.md

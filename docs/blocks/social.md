@@ -1,5 +1,5 @@
 ---
-title: Social Media Configuration
+title: Social Block Configuration
 ---
 
 The `social` block in the configuration file allows you to define your social media links dynamically. It ensures that your GitHub profile README or any other generated content stays up-to-date with your latest profiles.

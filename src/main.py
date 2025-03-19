@@ -1,5 +1,7 @@
 import os
 
+from jinja2 import Environment
+
 from blocks.blog import process_blog
 from blocks.youtube import process_youtube
 from config_loader import load_config
@@ -15,12 +17,12 @@ def main() -> None:
     output_path = os.path.join(base_dir, "README.md")
 
     # Load the configuration (order preserved in Python 3.7+)
-    config = load_config(config_path)
+    config: dict = load_config(config_path)
 
     # Create a Jinja2 environment
-    env = create_env(template_dir)
+    env: Environment = create_env(template_dir)
 
-    rendered_blocks = []
+    rendered_blocks: list = []
 
     # Iterate over the blocks in the config in order
     for block, details in config.items():

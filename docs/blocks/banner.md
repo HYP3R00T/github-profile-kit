@@ -1,5 +1,5 @@
 ---
-title: Banner Configuration
+title: Banner Block Configuration
 ---
 
 The `banner` block is used to display a banner image at the top or a designated section of the GitHub profile README. This block allows you to specify an image along with alternative text for accessibility.

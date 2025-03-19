@@ -50,7 +50,7 @@
             ],
             "additionalProperties": false
         },
-        "badges": {
+        "tech_stack": {
             "type": "object",
             "description": "Section for displaying badges. Provide a name (optional) and the URL generated from Shields.io for each badge.",
             "properties": {
