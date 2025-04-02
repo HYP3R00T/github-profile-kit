@@ -1,9 +1,9 @@
+about:
+  path: "./blocks/about.md"
+
 banner:
   image: './assets/animated_banner.gif'
   alt: "Banner"
-
-about:
-  path: "./blocks/about.md"
 
 social:
   links:
@@ -16,6 +16,11 @@ social:
     handle: "rajesh-kumar-das"
     url: "https://www.linkedin.com/in/rajesh-kumar-das/"
     badge: "https://img.shields.io/badge/LinkedIn-rajesh--kumar--das-0A66C2?style=for-the-badge"
+
+  - platform: "LinkedIn2"
+    handle: "rajesh-kumar-das"
+    url: "https://www.linkedin.com/in/rajesh-kumar-das/"
+    badge: "https://img.shields.io/badge/Sample%20Text-Something%20else?style=for-the-badge"
 
 blog:
   rss_url: "https://hyperoot.dev/rss.xml"
@@ -32,3 +37,6 @@ tech_stack:
     url: "https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
   - name: k3s
     url: "https://img.shields.io/badge/k3s-FFCC00.svg?style=for-the-badge&logo=k3s&logoColor=black"
+
+custom:
+  path: "./blocks/extra_content.md"
